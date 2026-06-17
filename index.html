@@ -15,6 +15,9 @@ body{margin:0;background:#FAF6EC;color:#20302C;font-family:'Noto Sans SC',system
 .brand{display:flex;flex-direction:column;align-items:center;gap:5px}
 .brand .logo{height:56px;width:auto;display:block}
 .brand .brand-sub{font-family:'Noto Serif SC',serif;font-weight:700;font-size:12.5px;color:#1C432F;letter-spacing:.04em}
+.nav{position:sticky;top:0;z-index:50;display:flex;gap:8px;justify-content:center;padding:9px 14px;background:rgba(250,246,236,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid #E9E2D2}
+.nav a{font-family:'DM Mono',monospace;font-size:13px;text-decoration:none;color:#20302C;padding:6px 16px;border-radius:999px;border:1px solid #E9E2D2;background:#fff;transition:.15s;white-space:nowrap}
+.nav a:hover,.nav a.active{background:#20302C;color:#fff;border-color:#20302C}
 h1{font-family:'Noto Serif SC',serif;font-weight:900;font-size:clamp(30px,7vw,46px);line-height:1.15;margin:0 0 10px}
 .sub{font-size:15.5px;color:#5a5444;margin:0 0 8px}
 .match{display:inline-block;font-family:'DM Mono',monospace;font-size:12.5px;background:#16324a;color:#fff;padding:8px 14px;border-radius:9px;margin:14px 0 30px}
@@ -38,7 +41,7 @@ footer{margin-top:34px;text-align:center}
 footer .sig{font-family:'Fraunces',serif;font-style:italic;font-size:20px;color:#1C432F}
 footer .web{font-family:'DM Mono',monospace;font-size:12px;color:#8a8268;margin-top:8px}
 </style></head><body>
-<div class="wrap">
+<nav class="nav"><a href="index.html" class="active">主页</a><a href="Philadelphia-Itinerary-PlanA.html">方案 A</a><a href="Philadelphia-Itinerary-PlanB.html">方案 B</a></nav><div class="wrap">
 <div class="topbar"><div class="brand"><img class="logo" src="superb-club-logo.png" alt="超能班 Superb Club" onerror="this.closest('.brand').style.display='none'"><div class="brand-sub">美东分舵 · 费城站</div></div></div><div class="eyebrow">Philadelphia · June 18 – 20</div>
 <p class="welcome">欢迎 <b>文华总</b> 和家人 ✿</p>
 <h1>费城两日游</h1>
